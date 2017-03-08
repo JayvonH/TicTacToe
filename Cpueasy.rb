@@ -8,3 +8,5 @@ class Easy
 		board.vidja.index("")
 	end
 end
+
+#agfdsgfs

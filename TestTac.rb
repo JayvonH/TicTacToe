@@ -7,3 +7,4 @@ class TestBoard < Minitest::Test
 		assert_equal(["","","","","","","","",""], board.vidja)
 	end
 end
+#ds
