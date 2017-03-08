@@ -1,6 +1,7 @@
 require_relative "Board.rb"
 require_relative "Cpueasy.rb"
 class Game
+	attr_accessor :current_player
 	def initialize (p1, p2)
 		@p1 = p1
 		@p2 = p2
@@ -18,10 +19,10 @@ class Game
 		board.vidja[index] = player.marker
 	end
 	def change_player
-		if @current_player == p2
-			@current_player = p1
+		if @current_player == @p2
+			@current_player = @p1
 		else
-			@current_player = p2
+			@current_player = @p2
 		end
 	end
 	def winner?(board)

@@ -1,5 +1,5 @@
 class Easy
-	attr_accessor :marker
+	attr_accessor :marker,:name
 	def initialize(name, marker)
 		@name = name
 		@marker= marker
