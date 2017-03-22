@@ -1,6 +1,6 @@
 require_relative "Board.rb"
 require_relative "Cpueasy.rb"
-class Game
+p class Game
 	attr_accessor :current_player
 	def initialize (p1, p2)
 		@p1 = p1
@@ -8,12 +8,13 @@ class Game
 		@current_player = p2
 	end
 	def display(board)
-		top =[board.vidja[0],board.vidja[1],board.vidja[2]]
-		middle = [board.vidja[3],board.vidja[4],board.vidja[5]]
-		bottom = [board.vidja[6],board.vidja[7],board.vidja[8]]
-		puts "#{top}"
-		puts "#{middle}"
-		puts "#{bottom}"
+		# top = [board.vidja[0],board.vidja[1],board.vidja[2]]
+		# middle = [board.vidja[3],board.vidja[4],board.vidja[5]]
+		# bottom = [board.vidja[6],board.vidja[7],board.vidja[8]]
+		# puts "#{top}"
+		# puts "#{middle}"
+		# puts "#{bottom}"
+		print board
 	end
 	def move(board, index, player)
 		board.vidja[index] = player.marker
