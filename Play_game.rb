@@ -1,9 +1,9 @@
-#require_relative "Board.rb"
+require_relative "Board.rb"
 require_relative "game.rb"
 require_relative "Cpurando.rb"
-require_relative "Cpueasy.rb"
+require_relative "Cpuimpossible.rb"
 p1 = Randomplayer.new("player1", "x")
-p2 = Easy.new("player2", "o")
+p2 = Difficult.new("player2", "o")
 game = Game.new(p1, p2)
 board = Board.new
 turn = 1
