@@ -5,8 +5,9 @@ class Difficult
 		@marker = marker
 	end
 	def movements(board)
-		if board.vidja[1]
-			do board.vidja[9]
+		
+			
+			
 	end
 
 end

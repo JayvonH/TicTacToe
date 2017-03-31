@@ -8,5 +8,4 @@ class Easy
 		board.vidja.index("")
 	end
 end
-
-#agfdsgfs
+#Easy is sequential

@@ -45,10 +45,3 @@ p class Game
 
 
 end
-# board = Board.new
-# easy = Easy.new("player2","o")
-# game = Game.new("p1", easy)
-# game.move(board, easy.movements(board),easy)
-# game.display(board)
-
-#bignh
