@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<h1>Player 1 is <%=p1_name%></h1>
+
+<h1>Player 2 Please enter your name</h1>
+<form method="post" action= "player2">
+	<input type= "text" Name = "p2_name">
+	<input type= "Submit">
+	<input type="hidden" name = "p1_name" value='<%=p1_name%>'>
+</form>
