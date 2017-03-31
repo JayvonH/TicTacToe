@@ -23,5 +23,5 @@ post '/player2' do
 end
 
 get '/gameplayroute' do
-	erb :gameboard, locals: {board: session[:board].gameboard}
+	erb :gameboard, locals: {board: session[:board].vidja}
 end
